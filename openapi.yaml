@@ -309,22 +309,24 @@ components:
     - x-skaffolder-id: 5f4be47a67541c707d17a350
       x-skaffolder-name: GitTest1_db
   x-skaffolder-page:
-    - x-skaffolder-id: 5f4bec3667541c707d17a3e3
-      x-skaffolder-name: Cabin
-      x-skaffolder-url: cabin
-      x-skaffolder-template: 
-      x-skaffolder-resource: 
-      x-skaffolder-services:
-        - 5f4be47a67541c707d17a35f
-      x-skaffolder-nesteds: 
-      x-skaffolder-links: 
-      x-skaffolder-roles: []
     - x-skaffolder-id: 5f4be47a67541c707d17a358
       x-skaffolder-name: Home
       x-skaffolder-url: /home
       x-skaffolder-template: 
       x-skaffolder-resource: 
       x-skaffolder-services: 
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 5f4bec3667541c707d17a3e3
+      x-skaffolder-name: UserList
+      x-skaffolder-url: /users
+      x-skaffolder-template: List_Crud
+      x-skaffolder-resource: 5f4be47a67541c707d17a359
+      x-skaffolder-services:
+        - 5f4be47a67541c707d17a35f
+        - 5f4be47a67541c707d17a35f
+        - 5f4be47a67541c707d17a362
       x-skaffolder-nesteds: 
       x-skaffolder-links: 
       x-skaffolder-roles: []
