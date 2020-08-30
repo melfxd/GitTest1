@@ -309,6 +309,16 @@ components:
     - x-skaffolder-id: 5f4be47a67541c707d17a350
       x-skaffolder-name: GitTest1_db
   x-skaffolder-page:
+    - x-skaffolder-id: 5f4bec3667541c707d17a3e3
+      x-skaffolder-name: Cabin
+      x-skaffolder-url: cabin
+      x-skaffolder-template: 
+      x-skaffolder-resource: 
+      x-skaffolder-services:
+        - 5f4be47a67541c707d17a35f
+      x-skaffolder-nesteds: 
+      x-skaffolder-links: 
+      x-skaffolder-roles: []
     - x-skaffolder-id: 5f4be47a67541c707d17a358
       x-skaffolder-name: Home
       x-skaffolder-url: /home

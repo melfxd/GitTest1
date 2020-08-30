@@ -5,6 +5,7 @@ import { CanActivate, RouterModule, Routes } from '@angular/router';
 /* START MY VIEWS IMPORT */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { HomeComponent} from './pages/home/home.component';
+import { CabinComponent} from './pages/cabin/cabin.component';
 
 /* END MY VIEWS IMPORT */
 
@@ -23,6 +24,7 @@ const routes: Routes = [
 
     /* START MY VIEWS */
 
+    { path: 'cabin',  loadChildren: './pages/cabin/cabin.module#CabinModule' , canActivate: [AuthGuard] },
     { path: 'home',  loadChildren: './pages/home/home.module#HomeModule' , canActivate: [AuthGuard] },
 
  /* END MY VIEWS */
